@@ -1,0 +1,60 @@
+{
+  "seo_title": "Audio device priority switcher for macOS",
+  "seo_description": "OutputRanker is a free, open-source menu bar app that ranks your audio inputs and outputs and automatically switches to the best connected device.",
+  "hero_title_line1": "Rank your audio devices.",
+  "hero_title_accent": "Your Mac picks the best.",
+  "hero_sub": "OutputRanker lives in the menu bar and switches your Mac to the highest-ranked connected input and output. Cycle devices anytime with global hotkeys, with a volume HUD.",
+  "features_title": "Priority switching, nothing extra.",
+  "features_sub": "One job done well: decide which device the Mac should use, and switch to it for you.",
+  "features": [
+    {
+      "icon": "sliders",
+      "title": "Drag to rank devices",
+      "desc": "Outputs and inputs each get their own list that you reorder by dragging in Settings. Disconnected devices stay greyed out in place, so their rank is kept."
+    },
+    {
+      "icon": "bolt",
+      "title": "Automatic switching",
+      "desc": "When a device appears or disappears, the highest-ranked connected one becomes the default. If a device fails to take over, the next in the list is tried."
+    },
+    {
+      "icon": "cursor",
+      "title": "Manual override when needed",
+      "desc": "Pick a device from the menu and it holds until the device list next changes. Inputs and outputs are overridden separately, and Auto Switch can be turned off entirely."
+    },
+    {
+      "icon": "keyboard",
+      "title": "Global cycle hotkeys",
+      "desc": "Cycle outputs and inputs from anywhere with Control-Option-Command plus a letter you choose. The defaults are O for outputs and I for inputs."
+    },
+    {
+      "icon": "display",
+      "title": "On-screen volume HUD",
+      "desc": "After a switch, a click-through panel shows the device name and its volume. Choose its duration from 0.5 to 5 seconds and its position at top, center or bottom."
+    },
+    {
+      "icon": "speaker",
+      "title": "Volume remembered per device",
+      "desc": "Each device's volume is saved and restored when you switch back to it. You can also hide devices, such as virtual drivers, from switching and cycling."
+    }
+  ],
+  "permissions_step": "No special permissions are required. If you enable Launch at login, macOS may list OutputRanker under System Settings > General > Login Items.",
+  "faq": [
+    {
+      "q": "Is OutputRanker really free and open source?",
+      "a": "Yes. It is released under the MIT license and the full source is on GitHub. There is no account, no server and no analytics, and optional donations on Ko-fi are the only way to support it."
+    },
+    {
+      "q": "Which permissions does it need?",
+      "a": "None. Hotkeys use Carbon, so Accessibility is not needed, and the HUD is just a window the app draws, so Screen Recording is not needed. It never captures audio, so it does not ask for Microphone access either."
+    },
+    {
+      "q": "Where is my data stored?",
+      "a": "Only on your Mac, in UserDefaults. That includes your device rankings (as device IDs), hidden devices, device names and per-device volumes. Nothing is sent anywhere."
+    },
+    {
+      "q": "Why isn't the app notarized?",
+      "a": "Notarization requires a paid Apple Developer account, and this is a free project. Right-click the app and choose Open once to run it, or build it yourself from source with Xcode and XcodeGen."
+    }
+  ]
+}

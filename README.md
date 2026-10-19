@@ -1,5 +1,7 @@
 # OutputRanker
 
+**🌐 Website:** [turhe123.github.io/output-ranker](https://turhe123.github.io/output-ranker/)
+
 Rank your audio inputs and outputs so the Mac always picks your best connected device, with a volume HUD.
 
 ![macOS 14+](https://img.shields.io/badge/macOS-14%2B-blue)
@@ -31,7 +33,17 @@ OutputRanker is a free, open-source, 100% native, backend-free alternative to pa
 
 ## Screenshots
 
-_Screenshots coming soon._
+<p align="center"><img src="docs/screenshots/01-menu.png" alt="OutputRanker menu bar menu with output and input devices" width="720"></p>
+
+<p align="center"><em>The menu bar menu lists connected outputs and inputs, checks the current one, and switches devices in one click.</em></p>
+
+<p align="center"><img src="docs/screenshots/02-device-ranking.png" alt="OutputRanker Settings, Outputs tab with the ranked device list" width="560"></p>
+
+<p align="center"><em>In Settings you drag devices into priority order, and each row shows its connection status, transport, remembered volume and a Hide option.</em></p>
+
+<p align="center"><img src="docs/screenshots/03-hotkeys-hud.png" alt="OutputRanker Settings, General tab with hotkey and HUD options" width="560"></p>
+
+<p align="center"><em>The General tab sets the global hotkeys for cycling devices and the duration and position of the on-screen volume HUD.</em></p>
 
 ## Install
 

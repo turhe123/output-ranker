@@ -1,0 +1,5 @@
+[
+  {"file":"01-menu.png","caption":"The menu bar menu lists connected outputs and inputs, checks the current one, and switches devices in one click.","alt":"OutputRanker menu bar menu with output and input devices"},
+  {"file":"02-device-ranking.png","caption":"In Settings you drag devices into priority order, and each row shows its connection status, transport, remembered volume and a Hide option.","alt":"OutputRanker Settings, Outputs tab with the ranked device list"},
+  {"file":"03-hotkeys-hud.png","caption":"The General tab sets the global hotkeys for cycling devices and the duration and position of the on-screen volume HUD.","alt":"OutputRanker Settings, General tab with hotkey and HUD options"}
+]
